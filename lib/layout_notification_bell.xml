@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Biểu tượng quả chuông thông báo -->
+    <ImageView
+        android:id="@+id/iv_bell"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_popup_reminder"
+        android:contentDescription="Notification Bell" />
+
+    <!-- Badge hiển thị số lượng thông báo màu đỏ hình tròn (oval) -->
+    <TextView
+        android:id="@+id/tv_badge"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/bg_badge_circle"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
