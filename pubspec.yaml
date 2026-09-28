@@ -21,6 +21,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - image/
+    - image/avatar.png
     - image/ddd.jpg
     - lib/res/drawable/
     - lib/layout_notification_bell.xml
